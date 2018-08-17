@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> Todo_APP </title>
+</head>
+
+<body> 
+    <h1> Todo_APP </h1>
+    <div> Add a new item: <br>
+        <form action = "{{url_for('add')}}" method = "POST" required size = "10" min length = "4" maxlength="6">
+            <font size="4"> title: </font>   <input type = "text" name = "title" required size = "30"> <br>
+            <font size="4"> description: </font> <input type = "text" name="description" > <br> <br>
+            <input type = "Submit">
+        </form>
+    </div>
+
+
+</body>
+</html>
+
+
